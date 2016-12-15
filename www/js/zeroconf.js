@@ -2,7 +2,7 @@
 
 console.log('You made it so far');
 
-var zeroconf = cordova.plugins.ZeroZonf;
+var zeroconf = cordova.plugins.ZeroConf;
 
 zeroconf.getHostname(function success(hostname){
 

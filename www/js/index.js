@@ -13,7 +13,6 @@ var app = {
 	this.receivedEvent('deviceready');
 
 	var zeroconf = cordova.plugins.zeroconf;
-	var console = cordova.plugins.console;
 
 	console.log('cordova is : ');
 	console.log(cordova);

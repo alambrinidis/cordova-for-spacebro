@@ -18,9 +18,6 @@
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
-    <feature name="ZeroConf">
-        <param name="ios-package" value="ZeroConf" />
-    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -29,7 +26,6 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <gap:plugin name="cordova-plugin-zeroconf" source="npm" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

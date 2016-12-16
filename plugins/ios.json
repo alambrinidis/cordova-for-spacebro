@@ -12,17 +12,7 @@
         },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "cordova-plugin-zeroconf": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "cordova-plugin-crosswalk-webview": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-add-swift-support": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        }
-    }
+    "dependent_plugins": {}
 }

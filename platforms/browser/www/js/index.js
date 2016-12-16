@@ -12,7 +12,7 @@ var app = {
 	
 	this.receivedEvent('deviceready');
 
-		var zeroconf = cordova.plugins.zeroconf;
+	var zeroconf = cordova.plugins.zeroconf;
 
 	console.log('cordova is : ');
 	console.log(cordova);
@@ -23,14 +23,14 @@ var app = {
 	console.log('ZeroConf is : ');
 	console.log(zeroconf);
 
-	// zeroconf.getHostname(function success(hostname){
+	zeroconf.getHostname(function success(hostname){
 
-	//     console.log('The device\'s hostname is : ' + hostname)
+	    console.log('The device\'s hostname is : ' + hostname)
 
-	// }, function failure(){
+	}, function failure(){
     
-	//     console.log('Device\'s hostname could not be retrieved')
-	// });
+	    console.log('Device\'s hostname could not be retrieved')
+	});
     },
 
     // Update DOM on a Received Event

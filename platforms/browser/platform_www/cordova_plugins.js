@@ -3,8 +3,7 @@ module.exports = [];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.3.1",
-    "cordova-plugin-console": "1.0.5"
+    "cordova-plugin-whitelist": "1.3.1"
 }
 // BOTTOM OF METADATA
 });

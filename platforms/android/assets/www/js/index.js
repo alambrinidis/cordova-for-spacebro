@@ -16,20 +16,20 @@ var app = {
 
 	console.log('cordova is : ');
 	console.log(cordova);
-	console.log('cordova.plugin is : ');
-	console.log(cordova.plugin);
-	console.log('cordova.plugin.zeroconf is : ');
-	console.log(cordova.plugin.zeroconf);
-	console.log('ZeroConf is : ');
+	console.log('cordova.plugins is : ');
+	console.log(cordova.plugins);
+	console.log('cordova.plugins.zeroconf is : ');
+	console.log(cordova.plugins.zeroconf);
+	console.log('zeroconf is : ');
 	console.log(zeroconf);
 
 	zeroconf.getHostname(function success(hostname){
 
-	    console.log('The device\'s hostname is : ' + hostname)
-
+	    console.log('The device\'s hostname is : ');
+	    console.log(hostname);
 	}, function failure(){
     
-	    console.log('Device\'s hostname could not be retrieved')
+	    console.log('Device\'s hostname could not be retrieved');
 	});
     },
 

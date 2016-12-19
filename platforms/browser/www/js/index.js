@@ -20,8 +20,8 @@ var app = {
 	console.log(cordova.plugins);
 	console.log('cordova.plugins.zeroconf is : ');
 	console.log(cordova.plugins.zeroconf);
-	console.log('zeroconf is : ');
-	console.log(zeroconf);
+	// console.log('zeroconf is : ');
+	// console.log(zeroconf);
 
 	zeroconf.getHostname(function success(hostname){
 

@@ -23,6 +23,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-zeroconf" spec="~1.2.1" />
     <plugin name="cordova-plugin-console" spec="~1.0.5" />
 </widget>

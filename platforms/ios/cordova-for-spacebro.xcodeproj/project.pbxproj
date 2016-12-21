@@ -17,8 +17,8 @@
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		0C1FCA593D31459FA22D789D /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A2273F1C35C244DB8C1E3642 /* CDVLogger.m */; };
-		1B4EA9F74EDD471484906D5B /* ZeroConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B653AB6641046348975E6FD /* ZeroConf.swift */; };
-		1AF90C11FEB94C9A9261E1CF /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1B7E1CAFF47F8AC408594 /* Hostname.m */; };
+		D8DD22547CF84088BD993A2F /* ZeroConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F54571F20F4130A3CC4886 /* ZeroConf.swift */; };
+		21A1AFB8886148E9B9CDEA82 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C39CB3671F4146A3DA7620 /* Hostname.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		A2273F1C35C244DB8C1E3642 /* CDVLogger.m */ = {isa = PBXFileReference; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		8431272CA75D41B7BAE236DD /* CDVLogger.h */ = {isa = PBXFileReference; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		8B653AB6641046348975E6FD /* ZeroConf.swift */ = {isa = PBXFileReference; name = "ZeroConf.swift"; path = "cordova-plugin-zeroconf/ZeroConf.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		7AB1B7E1CAFF47F8AC408594 /* Hostname.m */ = {isa = PBXFileReference; name = "Hostname.m"; path = "cordova-plugin-zeroconf/Hostname.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F695B3D9A08E4938B45E8542 /* ZeroConf-Bridging-Header.h */ = {isa = PBXFileReference; name = "ZeroConf-Bridging-Header.h"; path = "cordova-plugin-zeroconf/ZeroConf-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		04CDF2F466DF4582B9A95A5C /* Hostname.h */ = {isa = PBXFileReference; name = "Hostname.h"; path = "cordova-plugin-zeroconf/Hostname.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		13F54571F20F4130A3CC4886 /* ZeroConf.swift */ = {isa = PBXFileReference; name = "ZeroConf.swift"; path = "cordova-plugin-zeroconf/ZeroConf.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		07C39CB3671F4146A3DA7620 /* Hostname.m */ = {isa = PBXFileReference; name = "Hostname.m"; path = "cordova-plugin-zeroconf/Hostname.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		370513907C714BBAB4C5251A /* ZeroConf-Bridging-Header.h */ = {isa = PBXFileReference; name = "ZeroConf-Bridging-Header.h"; path = "cordova-plugin-zeroconf/ZeroConf-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		39E41CC312A24079878BE3E3 /* Hostname.h */ = {isa = PBXFileReference; name = "Hostname.h"; path = "cordova-plugin-zeroconf/Hostname.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +170,10 @@
 			children = (
 				A2273F1C35C244DB8C1E3642 /* CDVLogger.m */,
 				8431272CA75D41B7BAE236DD /* CDVLogger.h */,
-				8B653AB6641046348975E6FD /* ZeroConf.swift */,
-				7AB1B7E1CAFF47F8AC408594 /* Hostname.m */,
-				F695B3D9A08E4938B45E8542 /* ZeroConf-Bridging-Header.h */,
-				04CDF2F466DF4582B9A95A5C /* Hostname.h */,
+				13F54571F20F4130A3CC4886 /* ZeroConf.swift */,
+				07C39CB3671F4146A3DA7620 /* Hostname.m */,
+				370513907C714BBAB4C5251A /* ZeroConf-Bridging-Header.h */,
+				39E41CC312A24079878BE3E3 /* Hostname.h */,
 			);
 			name = Plugins;
 			path = "cordova-for-spacebro/Plugins";
@@ -287,8 +287,8 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				0C1FCA593D31459FA22D789D /* CDVLogger.m in Sources */,
-				1B4EA9F74EDD471484906D5B /* ZeroConf.swift in Sources */,
-				1AF90C11FEB94C9A9261E1CF /* Hostname.m in Sources */,
+				D8DD22547CF84088BD993A2F /* ZeroConf.swift in Sources */,
+				21A1AFB8886148E9B9CDEA82 /* Hostname.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

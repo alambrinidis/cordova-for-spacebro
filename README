@@ -1,5 +1,12 @@
 Cordova-for-spacebro
 
-Testing cordova-plugin-zeroconf : https://github.com/becvert/cordova-plugin-zeroconf
+A simple program displaying the Bonjour/Zeroconf service using cordova-plugin-zeroconf : https://github.com/becvert/cordova-plugin-zeroconf
 
 on Android and ios.
+
+Troubleshooting :
+
+The command phonegap serve [options] does not work as it is not equivalent as installing the app on the device. It creates a server to host and thus uses the browser version of phonegap. It
+will result in the plugins being undefined.
+
+Use the command phonegap/cordova [run/install] [platform]

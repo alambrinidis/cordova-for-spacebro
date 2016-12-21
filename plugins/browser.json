@@ -7,8 +7,11 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.cordovaforspacebro"
+        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "io.cordova.cordovaforspacebro"
         },
         "cordova-plugin-zeroconf": {
             "PACKAGE_NAME": "io.cordova.cordovaforspacebro"
